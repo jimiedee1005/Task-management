@@ -1,11 +1,15 @@
 
 // Initialize Firebase with your config
-firebase.initializeApp({
+const firebaseConfig = {
     apiKey: "AIzaSyCVUvuX3RJkjyfNs6Jx8tgzgNVPCNAWhGA",
     authDomain: "task-management-3891e.firebaseapp.com",
+    databaseURL: "https://task-management-3891e-default-rtdb.firebaseio.com",
     projectId: "task-management-3891e",
-    
-  });
+    storageBucket: "task-management-3891e.appspot.com",
+    messagingSenderId: "193099414393",
+    appId: "1:193099414393:web:037518b265367aae368da8",
+    measurementId: "G-M4HW7B8ZME"
+  };
 
 const db =firebase.firestore();
 
